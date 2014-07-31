@@ -26,13 +26,14 @@
 	        <li><%= link_to "New", new_status_path %></li>
 	        
 	      </ul>
-	     
-	      
 	    </div><!-- /.navbar-collapse -->
 	  </div>
 	</nav>
 
 	<div class="container">
+		<p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
+        
 		<%= yield %>
 		
 		<br/><br/>

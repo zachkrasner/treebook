@@ -1,7 +1,7 @@
 <div class="page-header">
   <h1>All of the Statuses</h1>
 </div>
-<p><%= icon('plus') %> <%= link_to "Post a New Status", new_status_path, class: "btn btn-default" %>
+<p><%= link_to "Post a New Status", new_status_path, class: "btn btn-primary" %>
 <% @statuses.each do |status| %>
 <div class="status">
   <strong><%= status.name %></strong>
