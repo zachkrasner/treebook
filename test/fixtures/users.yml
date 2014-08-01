@@ -3,5 +3,4 @@ jason:
   last_name: "Seifer"
   profile_name: "jasonseifer"
   email: "jseif@gmail.com"
-  password: "password"
-  password_confirmation: "password"
+  encrypted_password: "password"
