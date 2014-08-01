@@ -1,0 +1,7 @@
+jason:
+  first_name: "Jason"
+  last_name: "Seifer"
+  profile_name: "jasonseifer"
+  email: "jseif@gmail.com"
+  password: "password"
+  password_confirmation: "password"
