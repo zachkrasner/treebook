@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   root to: 'statuses#index'
 
+  get '/:id', to: 'profiles#show'
+
   devise_scope :user do
     get "register", :to => "devise/registrations#new", as: :register
     get "login", :to => "devise/sessions#new", as: :login
