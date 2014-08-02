@@ -11,7 +11,6 @@ end
 
 group :production do
 	gem 'pg'
-	gem 'rails_12factor'
 end
 
 # Use SCSS for stylesheets
@@ -39,6 +38,8 @@ gem 'devise'
 gem 'normalize-rails'
 gem 'simple_form'
 gem 'protected_attributes'
+
+gem 'rails_12factor', group: :production
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
